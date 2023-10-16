@@ -24,7 +24,7 @@ const Footer: FC = () => {
                 <Spacer/>
                 <Socials color={useColorModeValue('#5a657c', '#9199a9')} size='1.25rem' />
                 <IconButton
-                    colorScheme='teal'
+                    colorScheme='purple'
                     variant='outline'
                     onClick={() => {
                         scroll.scrollToTop({ duration: 350 })
